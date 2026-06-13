@@ -1,3 +1,6 @@
+<img width="1503" height="711" alt="Screenshot 2026-06-13 114733" src="https://github.com/user-attachments/assets/f788845d-406d-4794-b126-f5c71627ba66" />
+<img width="1490" height="716" alt="Screenshot 2026-06-13 111031" src="https://github.com/user-attachments/assets/12eec5a8-47bd-40c0-a1a5-0d7d73c4501b" />
+<img width="1502" height="700" alt="Screenshot 2026-06-13 110952" src="https://github.com/user-attachments/assets/ea0e2c7b-298c-428f-99a3-2666e943acb0" />
 # Event Manager
 
 This repository contains a Django + React event management application built in `demo/event-platform`.
@@ -75,5 +78,13 @@ npm run dev
 Repository URL: `https://github.com/adarshkrishna-jpg/Event-Manager`
 
 ## Screenshots
+<img width="1920" height="1080" alt="Screenshot 2026-06-13 130315" src="https://github.com/user-attachments/assets/e28c4878-5156-425c-b599-653df023f441" />
+<img width="1920" height="1080" alt="Screenshot 2026-06-13 130302" src="https://github.com/user-attachments/assets/2b5f3192-838f-4c37-b123-6d709c7c72a0" />
+<img width="1920" height="1080" alt="Screenshot 2026-06-13 130224" src="https://github.com/user-attachments/assets/3175d2fb-2984-431c-bcd8-58b9767a529f" />
+<img width="1920" height="1080" alt="Screenshot 2026-06-13 130213" src="https://github.com/user-attachments/assets/15bd315e-b92d-4b85-9dec-6520a685ee59" />
+<img width="1920" height="1080" alt="Screenshot 2026-06-13 130147" src="https://github.com/user-attachments/assets/e5654e52-71d4-4677-8b92-a51bb9cb463c" />
+<img width="1478" height="753" alt="Screenshot 2026-06-13 130121" src="https://github.com/user-attachments/assets/ca0d1136-d3d7-40fd-a9ee-527c9ce1f9f1" />
 
-<img width="1515" height="722" alt="Screenshot 2026-06-13 110925" src="https://github.com/user-attachments/assets/0bb03a5a-0eae-426e-99c2-ba06019ab40d" />
+
+
+
