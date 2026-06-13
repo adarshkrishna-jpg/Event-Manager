@@ -1,0 +1,500 @@
+.counter {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  margin-bottom: 24px;
+
+  &:hover {
+    border-color: var(--accent-border);
+  }
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+.hero {
+  position: relative;
+
+  .base,
+  .framework,
+  .vite {
+    inset-inline: 0;
+    margin: 0 auto;
+  }
+
+  .base {
+    width: 170px;
+    position: relative;
+    z-index: 0;
+  }
+
+  .framework,
+  .vite {
+    position: absolute;
+  }
+
+  .framework {
+    z-index: 1;
+    top: 34px;
+    height: 28px;
+    transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg)
+      scale(1.4);
+  }
+
+  .vite {
+    z-index: 0;
+    top: 107px;
+    height: 26px;
+    width: auto;
+    transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg)
+      scale(0.8);
+  }
+}
+
+#center {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  place-content: center;
+  place-items: center;
+  flex-grow: 1;
+
+  @media (max-width: 1024px) {
+    padding: 32px 20px 24px;
+    gap: 18px;
+  }
+}
+
+#next-steps {
+  display: flex;
+  border-top: 1px solid var(--border);
+  text-align: left;
+
+  & > div {
+    flex: 1 1 0;
+    padding: 32px;
+    @media (max-width: 1024px) {
+      padding: 24px 20px;
+    }
+  }
+
+  .icon {
+    margin-bottom: 16px;
+    width: 22px;
+    height: 22px;
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+#docs {
+  border-right: 1px solid var(--border);
+
+  @media (max-width: 1024px) {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+}
+
+#next-steps ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  margin: 32px 0 0;
+
+  .logo {
+    height: 18px;
+  }
+
+  a {
+    color: var(--text-h);
+    font-size: 16px;
+    border-radius: 6px;
+    background: var(--social-bg);
+    display: flex;
+    padding: 6px 12px;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: box-shadow 0.3s;
+
+    &:hover {
+      box-shadow: var(--shadow);
+    }
+    .button-icon {
+      height: 18px;
+      width: 18px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      flex: 1 1 calc(50% - 8px);
+    }
+
+    a {
+      width: 100%;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+  }
+}
+
+body {
+  background: transparent;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 24px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 24px;
+  border-radius: var(--radius);
+  background: rgba(12, 27, 48, 0.92);
+  border: 1px solid rgba(86, 149, 243, 0.16);
+  box-shadow: var(--shadow);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.brand-link {
+  color: var(--text);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.nav-link {
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.button-link:hover,
+.button-primary:hover,
+.button-secondary:hover {
+  color: var(--primary);
+}
+
+.button-primary,
+.button-secondary,
+.button-link {
+  border: none;
+  border-radius: 999px;
+  padding: 0.9rem 1.4rem;
+  font-weight: 600;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.button-primary {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: white;
+}
+
+.button-secondary {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.button-link {
+  background: transparent;
+  color: var(--primary);
+  padding: 0.65rem 1rem;
+  border: 1px solid rgba(77, 163, 255, 0.3);
+}
+
+.button-primary:hover,
+.button-secondary:hover,
+.button-link:hover {
+  transform: translateY(-1px);
+  background: rgba(77, 163, 255, 0.1);
+}
+
+.page-frame {
+  display: grid;
+  gap: 24px;
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Schedule page styles */
+.schedule-page {
+  display: grid;
+  gap: 36px;
+  padding: 20px 0;
+}
+
+.schedule-hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius);
+  padding: 32px;
+  box-shadow: var(--shadow);
+}
+
+.schedule-label {
+  color: #7ab7ff;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.schedule-hero h1 {
+  font-size: clamp(2rem, 2.8vw, 3.4rem);
+  margin-bottom: 16px;
+  line-height: 1.05;
+}
+
+.schedule-copy {
+  max-width: 620px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.schedule-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.schedule-list {
+  display: grid;
+  gap: 18px;
+}
+
+.schedule-card {
+  display: grid;
+  gap: 20px;
+  padding: 28px;
+  background: rgba(7, 27, 47, 0.92);
+  border: 1px solid rgba(113, 172, 255, 0.12);
+  border-radius: 28px;
+  box-shadow: 0 24px 60px rgba(3, 12, 34, 0.35);
+}
+
+.schedule-card-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.schedule-card-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.meta-text {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.schedule-date {
+  text-align: right;
+  min-width: 120px;
+}
+
+.schedule-date span {
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.schedule-date small {
+  display: block;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.schedule-description {
+  color: var(--text-muted);
+  line-height: 1.85;
+}
+
+.schedule-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.schedule-details {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.schedule-details span {
+  background: rgba(255,255,255,0.04);
+  padding: 10px 14px;
+  border-radius: 999px;
+}
+
+@media (max-width: 900px) {
+  .schedule-hero {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .schedule-card-info {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .schedule-date {
+    text-align: left;
+  }
+}
+
+@media (max-width: 640px) {
+  .schedule-hero,
+  .schedule-card {
+    padding: 22px;
+  }
+
+  .schedule-card-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.page-panel {
+  background: rgba(14, 31, 56, 0.96);
+  border: 1px solid rgba(77, 163, 255, 0.18);
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  padding: 30px;
+}
+
+.page-header {
+  margin-bottom: 24px;
+}
+
+.page-header h2 {
+  color: var(--heading);
+  font-size: clamp(1.8rem, 2vw, 2.4rem);
+}
+
+.form-grid {
+  display: grid;
+  gap: 18px;
+  max-width: 460px;
+}
+
+.form-grid input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(12, 27, 48, 0.85);
+  color: var(--text);
+}
+
+.form-grid input::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.event-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.event-card,
+.event-detail,
+.registration-item {
+  background: rgba(14, 31, 56, 0.96);
+  border: 1px solid rgba(77, 163, 255, 0.16);
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.event-card h3,
+.registration-item strong,
+.event-detail strong {
+  color: var(--text);
+}
+
+.event-card p,
+.event-detail p,
+.registration-item {
+  color: var(--text-muted);
+  margin-top: 12px;
+}
+
+.status-text,
+.status-message {
+  color: var(--text-muted);
+  margin: 0 0 18px;
+}
+
+.status-error {
+  color: #ff7a7a;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 900px) {
+  .navbar,
+  .page-panel {
+    padding: 20px;
+  }
+
+  .app-shell {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .navbar-left,
+  .navbar-right {
+    justify-content: center;
+  }
+
+  .page-panel {
+    padding: 22px;
+  }
+}
