@@ -1,6 +1,4 @@
-<img width="1503" height="711" alt="Screenshot 2026-06-13 114733" src="https://github.com/user-attachments/assets/f788845d-406d-4794-b126-f5c71627ba66" />
-<img width="1490" height="716" alt="Screenshot 2026-06-13 111031" src="https://github.com/user-attachments/assets/12eec5a8-47bd-40c0-a1a5-0d7d73c4501b" />
-<img width="1502" height="700" alt="Screenshot 2026-06-13 110952" src="https://github.com/user-attachments/assets/ea0e2c7b-298c-428f-99a3-2666e943acb0" />
+
 # Event Manager
 
 This repository contains a Django + React event management application built in `demo/event-platform`.
