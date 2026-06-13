@@ -73,3 +73,7 @@ npm run dev
 ## GitHub
 
 Repository URL: `https://github.com/adarshkrishna-jpg/Event-Manager`
+
+## Screenshots
+
+<img width="1515" height="722" alt="Screenshot 2026-06-13 110925" src="https://github.com/user-attachments/assets/0bb03a5a-0eae-426e-99c2-ba06019ab40d" />
