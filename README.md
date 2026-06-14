@@ -83,6 +83,8 @@ Repository URL: `https://github.com/adarshkrishna-jpg/Event-Manager`
 <img width="1920" height="1080" alt="Screenshot 2026-06-13 130147" src="https://github.com/user-attachments/assets/e5654e52-71d4-4677-8b92-a51bb9cb463c" />
 <img width="1478" height="753" alt="Screenshot 2026-06-13 130121" src="https://github.com/user-attachments/assets/ca0d1136-d3d7-40fd-a9ee-527c9ce1f9f1" />
 
-
+## Dark mode and Light mode
+<img width="1511" height="732" alt="Screenshot 2026-06-14 112037" src="https://github.com/user-attachments/assets/f043bbdd-fa31-4240-9ef7-3c06087a281c" />
+<img width="1498" height="708" alt="Screenshot 2026-06-14 112007" src="https://github.com/user-attachments/assets/7bfe6e48-de54-4a95-ada6-e75e291f1b80" />
 
 
