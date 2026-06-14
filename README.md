@@ -87,4 +87,7 @@ Repository URL: `https://github.com/adarshkrishna-jpg/Event-Manager`
 <img width="1511" height="732" alt="Screenshot 2026-06-14 112037" src="https://github.com/user-attachments/assets/f043bbdd-fa31-4240-9ef7-3c06087a281c" />
 <img width="1498" height="708" alt="Screenshot 2026-06-14 112007" src="https://github.com/user-attachments/assets/7bfe6e48-de54-4a95-ada6-e75e291f1b80" />
 
+## Search Button
+<img width="1501" height="725" alt="Screenshot 2026-06-14 120600" src="https://github.com/user-attachments/assets/6205e353-09d7-4ab2-8502-73f5e5d1d5db" />
+
 
